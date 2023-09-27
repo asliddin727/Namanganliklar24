@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <link rel="stylesheet" href="./css/style.css"> -->
+
+    <!-- MINIFY STYLING START -->
+    <link rel="stylesheet" href="./css/minify.css">
+    <!-- MINIFY STYLING END -->
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        
+        <div class="container">
+            <div class="raw">
+                 <!-- Header top left start-->
+                    <div class="top-left">
+                        <div class="logo"><h1>namanganliklar24</h1></div>
+                        <div class="sum">
+                            <p><span>$</span>10137.13</p>
+                            <p><span>P</span>10137.13</p>
+                            <p><span>E</span>10137.13</p>
+                        </div>
+                        
+                    </div>
+                    <!-- Header top left start end-->
+
+                    <!-- Header top right start-->
+                    <div class="top-right">
+                            <a href="#" class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></a>
+                            <a href="#" class="lang"><img src="./images/flag.png" alt="flag">РУ</a>
+                            <a href="#" onclick="open_message()" class="telegram"><i class="fa-brands fa-telegram"></i>ПОДПИСАТСЯ</a>
+                    </div>
+                    <!-- Header top right end-->
+            </div>
+           
+
+            <!-- Navbar start -->
+            <nav>
+                <ul class="navbar-items">                                    
+                    <li class="item"><a href="#">Узбекистана</a></li>
+                    <li class="item"><a href="#">Мир</a></li>
+                    <li class="item"><a href="#">Экономика</a></li>
+                    <li class="item"><a href="#">Политика</a></li>
+                    <li class="item"><a href="#">Общество</a></li>
+                    <li class="item"><a href="#">Технологии</a></li>
+                    <li class="item"><a href="#">Спорт</a></li>
+                    <li class="item"><a href="#">Культура</a></li>
+                    <li class="item"><a href="#">Происшествия</a></li>
+                    <li class="item"><a href="#">Туризм</a></li>
+                </ul>
+            </nav>
+            <!-- Navbar end -->
+
+            <!-- Images start -->
+            <img class="banner" src="./images/nrg-banner.svg" alt="nrg-banner">
+            <!-- Images end -->
+        </div>
+    </header>
+
+    <!-- Main start -->
+    <main>
+        <!-- Service start -->
+            <section class="service">
+                <div class="container">
+                    <ol class="warnings-list">
+                        <li><img src="./images/icon-covid.svg" alt="">Коронавирус COVID-19
+                            <br>в Узбекистане</li>
+                        <li><img src="./images/icon-infected.svg" alt="">Инфицированы
+                            <br><span>2753</span></li>
+                        <li id="green"><img src="./images/icon-recovered.svg" alt="">Выздоровели
+                            <br><span>2245</span></li>
+                        <li><img src="./images/icon-dead.svg" alt="">Умерли
+                            <br><span>12</span></li>
+                    </ol>
+                </div>
+            </section>
+        <!-- Service end -->
+
+        <!-- News start -->
+        <section class="news">
+            <div class="container">
+                <ul>
+                    <li>
+                        <figure>
+                            <img src="./images/prezident.svg" alt="prezident">
+                            <figcaption>Мирзиёев рассказал, зачем было построено 
+                                Сардобинское водохранилище</figcaption>
+                                <span>05:28 / 16.05.2020</span>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="./images/karantin.svg" alt="prezident">
+                            <figcaption>Карантин в Узбекистане продлен до 1 июня</figcaption>
+                                <span>05:28 / 16.05.2020</span>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="./images/sardoba.svg" alt="prezident">
+                            <figcaption>Обмелевшая Сардоба: стихия или 
+                                человеческий фактор?</figcaption>
+                                <span>05:28 / 16.05.2020</span>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="./images/prokuror.svg" alt="prezident">
+                            <figcaption>Следствие проверяет четыре версии 
+                                прорыва Сардобинской плотины</figcaption>
+                                <span>05:28 / 16.05.2020</span>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="./images/tez-yordam.svg" alt="prezident">
+                            <figcaption>Выявлено еще 7 случаев коронавируса</figcaption>
+                                <span>05:28 / 16.05.2020</span>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="./images/stop-karantin.svg" alt="prezident">
+                            <figcaption>Итоги второго месяца карантина</figcaption>
+                                <span>05:28 / 16.05.2020</span>
+                        </figure>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- News end -->
+
+        <!-- Last News start -->
+        <section class="last-news">
+            <div class="container">
+                <div class="lastNews-left">
+                    
+                    <ul><h4>Последние новости</h4>
+                        <li>
+                            <figure>
+                                <div class="box-left">
+                                  <img src="./images/Rectangle 21.png" alt="prezident">  
+                                </div>
+                                <div class="box-right">
+                                    <figcaption>Мирзиёев рассказал, зачем было построено 
+                                        Сардобинское водохранилище</figcaption>
+                                        <p>После прорыва дамбы Сардобинского водохранилища возбуждено уголовное дело, сообщили в пресс-службе Генпрокуратуры Узбекистана.
+                                        </p>
+                                        <span>05:28 / 16.05.2020</span>
+                                </div>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <div class="box-left">
+                                  <img src="./images/Rectangle 23.png" alt="prezident">  
+                                </div>
+                                <div class="box-right">
+                                    <figcaption>Мирзиёев рассказал, зачем было построено 
+                                        Сардобинское водохранилище</figcaption>
+                                        <p>После прорыва дамбы Сардобинского водохранилища возбуждено уголовное дело, сообщили в пресс-службе Генпрокуратуры Узбекистана.
+                                        </p>
+                                        <span>05:28 / 16.05.2020</span>
+                                </div>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <div class="box-left">
+                                  <img src="./images/Rectangle 24.png" alt="prezident">  
+                                </div>
+                                <div class="box-right">
+                                    <figcaption>Мирзиёев рассказал, зачем было построено 
+                                        Сардобинское водохранилище</figcaption>
+                                        <p>После прорыва дамбы Сардобинского водохранилища возбуждено уголовное дело, сообщили в пресс-службе Генпрокуратуры Узбекистана.
+                                        </p>
+                                        <span>05:28 / 16.05.2020</span>
+                                </div>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <div class="box-left">
+                                  <img src="./images/Rectangle 38.png" alt="prezident">  
+                                </div>
+                                <div class="box-right">
+                                    <figcaption>Мирзиёев рассказал, зачем было построено 
+                                        Сардобинское водохранилище</figcaption>
+                                        <p>После прорыва дамбы Сардобинского водохранилища возбуждено уголовное дело, сообщили в пресс-службе Генпрокуратуры Узбекистана.
+                                        </p>
+                                        <span>05:28 / 16.05.2020</span>
+                                </div>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <div class="box-left">
+                                  <img src="./images/Rectangle 39.png" alt="prezident">  
+                                </div>
+                                <div class="box-right">
+                                    <figcaption>Мирзиёев рассказал, зачем было построено 
+                                        Сардобинское водохранилище</figcaption>
+                                        <p>После прорыва дамбы Сардобинского водохранилища возбуждено уголовное дело, сообщили в пресс-службе Генпрокуратуры Узбекистана.
+                                        </p>
+                                        <span>05:28 / 16.05.2020</span>
+                                </div>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <div class="box-left">
+                                  <img src="./images/Rectangle 40.png" alt="prezident">  
+                                </div>
+                                <div class="box-right">
+                                    <figcaption>Мирзиёев рассказал, зачем было построено 
+                                        Сардобинское водохранилище</figcaption>
+                                        <p>После прорыва дамбы Сардобинского водохранилища возбуждено уголовное дело, сообщили в пресс-службе Генпрокуратуры Узбекистана.
+                                        </p>
+                                        <span>05:28 / 16.05.2020</span>
+                                </div>
+                            </figure>
+                        </li>
+
+                    </ul>
+                    <a href="#" class="btn">Больше новостей</a>  
+                </div>
+                
+                <div class="lastNews-right">
+                    
+                    <ul>
+                        <li><h4>Итоги второго месяца карантина</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, harum quo aperiam minima pariatur vitae!</p>
+                            <span>05:28 / 16.05.2020</span>
+                        </li>
+                        <li>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, harum quo aperiam minima pariatur vitae!</p>
+                            <span>05:28 / 16.05.2020</span>
+                        </li>
+                        <li>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, harum quo aperiam minima pariatur vitae!</p>
+                            <span>05:28 / 16.05.2020</span>
+                        </li>
+                        <li>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, harum quo aperiam minima pariatur vitae!</p>
+                            <span>05:28 / 16.05.2020</span>
+                        </li>
+                    </ul>
+                    <img src="./images/Rectangle 41.svg" alt="">
+                </div>
+            </div>
+        </section>
+        <!-- Last News end -->
+
+        <section class="pro">
+            <div class="container">
+                <img src="./images/phone.png" alt="">
+                <div class="desc">
+                    <h4>Всегда будьте в курсе последних новостей!</h4>
+                    <p>Установите мобильное приложение NAMANGANLIKLAR24
+                        и все новости в вашем кармане!</p>
+                </div>
+                <img src="./images/googleplay 1.png" alt="">
+                <img src="./images/appstore 1.png" alt="">
+            </div>
+        </section>
+    </main>
+    <!-- Main end -->
+
+    <div class="cln"></div>
+    
+    <!-- FOOTER START -->
+    <footer>
+        <section class="footer">
+            <div class="container">
+                <!-- FOOTER TOP START -->
+                <div class="footer-top">
+                    <!-- FOOTER TOP LEFT STYLING START -->
+                    <div class="footer-top-left">
+                        <h4><a href="#">NAMANGANLIKLAR24</a></h4>
+                    </div>
+                    <!-- FOOTER TOP LEFT STYLING END -->
+                    
+                    <!-- FOOTER TOP LEFT STYLING START -->
+                    <div class="footer-top-right">
+                        <p>
+                            Подписывайтесь на наш канал в Telegram и будьте всегда в курсе самых последних новостей:
+                        </p>
+                        <a href="#" class="telegram" onclick="open_message()">
+                            <i class="fa-brands fa-telegram"></i>
+                            Подписатся
+                        </a>
+                    </div>
+                    <!-- FOOTER TOP LEFT STYLING END -->
+                </div>
+                <!-- FOOTER TOP END -->
+                <hr class="line">
+                <!-- FOOTER BOTTOM START -->
+                <div class="footer-bottom">
+                    <!-- FOOTER TOP LEFT STYLING START -->
+                    <div class="footer-bottom-left">
+                        <blockquote>
+                        <h4>О сайте</h4> <br> 
+                            Воспроизводство, копирование, тиражирование, распространение и иное использование информации с сайта «NAMANGANLIKLAR24.UZ» возможно только с предварительного письменного разрешения редакции.
+
+                        </blockquote>
+                    </div>
+                    <!-- FOOTER TOP LEFT STYLING END -->
+                    
+                    <!-- FOOTER TOP LEFT STYLING START -->
+                    <div class="footer-bottom-right">
+                                
+                        <ul class="one">
+                            <li><a href="#">Информация о сайте</a></li>
+                            <li><a href="#">Напишите нам</a></li>
+                            <li><a href="#">Реклама  </a></li>
+                            <li><a href="#">Прислать новость</a></li>
+                        </ul>
+                        
+                        <ul class="two">
+                            <li><a href="#">Использование материалов</a></li>
+                            <li><a href="#">Темы дня</a></li>
+                            <li><a href="#">Наша команда</a></li>
+                        </ul>
+                    </div>
+                    <!-- FOOTER TOP LEFT STYLING END -->
+                </div>
+                <!-- FOOTER BOTTOM END -->
+
+            </div>
+        </section>
+    
+    </footer>
+    <!-- FOOTER END -->
+
+    <div class="alert">
+        <div class="container">
+       
+            <div class="alert-box">
+                
+                <div class="aletr-box-top">
+                    <a href="#" onclick="close_message()"><i class="fa-solid fa-xmark"></i></a></i>
+                </div>
+
+                <!-- ALERT MAIN START -->
+                <div class="alert-main">
+                    <h3>
+                        Подписывайтесь на наш канал в Telegram <br> 
+                        и будьте всегда в курсе самых последних новостей:
+                    </h3>
+                    <a href="#" class="telegram" ><i class="fa-brands fa-telegram"></i>Подписатся</a>
+                </div>
+                
+                <!-- ALERT MAIN END -->
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
